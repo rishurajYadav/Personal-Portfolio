@@ -37,7 +37,7 @@ const Home = () => {
   <div className="max-w-7xl mx-auto px-1 grid md:grid-cols-2 gap-8 items-center">
 
     {/* LEFT TEXT */}
-    <div className="text-left">
+    <div className="text-left mt-25">
       <h1 className="text-7xl md:text-5xl font-extrabold mb-6">
   <span className="text-orange-500">Hi,I’m a  Rishu Raj 👋</span></h1>
       <p className="text-5xl md:text-2xl text-white mb-6 font-bold">
@@ -525,3 +525,6 @@ const Home = () => {
 };
 
 export default Home;
+
+
+

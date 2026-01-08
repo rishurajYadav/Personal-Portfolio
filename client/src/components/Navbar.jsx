@@ -51,7 +51,7 @@ const Navbar = () => {
         md:px-6 md:py-2 md:text-base
         lg:px-10 lg:text-xl
 
-        rounded-full text-white
+        rounded-full text-black
         transition-all duration-300
         whitespace-nowrap
 
@@ -77,10 +77,10 @@ const Navbar = () => {
           md:px-6 md:py-3
 
           rounded-2xl sm:rounded-full
-          bg-black backdrop-blur-md
+          bg-amber-50 backdrop-blur-md
           border border-white/20 shadow-xl
 
-          max-w-[95%]
+          max-w-[95%] 
         "
       >
         <NavButton onClick={() => scrollToSection("home")}>Home</NavButton>
@@ -99,7 +99,7 @@ const Navbar = () => {
         </NavButton>
 
         <a
-          href="https://drive.google.com/file/d/1WRutpGZHi-hoA1BtC7E6sCmhC4C1LH-v/view?usp=sharing"
+          href="https://drive.google.com/file/d/18mHzSNQ0CKYJ1WPGJ12v5PNoUsiEb588/view?usp=sharing"
           target="_blank"
           rel="noopener noreferrer"
           className="
